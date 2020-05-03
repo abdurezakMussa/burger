@@ -9,3 +9,4 @@ CREATE TABLE burger
     devoured boolean DEFAULT false,
     PRIMARY KEY (id)
 );
+
