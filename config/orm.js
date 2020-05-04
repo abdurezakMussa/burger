@@ -1,5 +1,5 @@
 //import mysql connection.
-let connection=require("../config/connection.js");
+var connection=require("../config/connection.js");
 
 // Helper function for SQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
@@ -59,7 +59,7 @@ var orm = {
     queryString += printQuestionMarks(vals.length);
     queryString += ") ";
 
-    console.log(queryString);
+    console.log("orm1"+queryString);
 
     connection.query(queryString, vals, function(err, result) {
       if (err) {
@@ -78,7 +78,7 @@ var orm = {
     queryString += " WHERE ";
     queryString += condition;
 
-    console.log(queryString);
+    console.log("orm"+queryString);
     connection.query(queryString, function(err, result) {
       if (err) {
         throw err;
