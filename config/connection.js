@@ -1,6 +1,6 @@
 // set up Mysql conncetion.
-let mysql = require("mysql");
-let connection=mysql.createConnection({
+const mysql = require("mysql");
+const connection=mysql.createConnection({
     host: "localhost",
     port: 5000,
     user: "root",

@@ -1,5 +1,5 @@
 const express = require("express");
-const PORT = process.env.PORT||5000;
+const PORT = 5000;
 const app = express();
 const exphbs=require("express-handlebars"); // Set Handlebars.
 const routes=require("./controller/burger_controller.js");
@@ -19,6 +19,6 @@ app.use(routes);
 
 ///Port listener 
 app.listen(PORT,function(){
-    Console.log("App now listening at localhost:"+PORT);
+    console.log("App now listening at localhost:"+ PORT);
 });
 

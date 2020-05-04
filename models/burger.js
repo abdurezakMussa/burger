@@ -1,6 +1,6 @@
 // Import the ORM to create functions that will interact with the database.
 
-let orm = require("../config/orm.js");
+const orm = require("../config/orm.js");
 
 let burger ={
     selectAll: function(cb){
