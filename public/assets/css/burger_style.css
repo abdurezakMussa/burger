@@ -2,8 +2,9 @@ body {
 	color: #333;
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
-    background: url("https://www.seriouseats.com/recipes/images/2017/06/20170617-bulgogi-burger-matt-clifton-1-1500x1125.jpg"); 
-    background-size: 100%; 
+    /* background: url("https://www.seriouseats.com/recipes/images/2017/06/20170617-bulgogi-burger-matt-clifton-1-1500x1125.jpg");  */
+	background:url(https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_980/https://www.swifterm.com/wp-content/uploads/2019/10/SwiftERM-Burger-980x735.jpg) ;
+	background-size: 100%; 
     background-repeat: no-repeat; 
     position:center
 }
@@ -54,8 +55,9 @@ button {
 #burgers-available {
 	flex-grow: 1;
 	padding: 0.5em 2em 1.7em 2em;
-	background: rgb(60, 199, 192);
+	background: rgb(204, 181, 155);
 	margin: 1em 1em 1em 0;
+	opacity: 0.5;
 }
 
 #burgers-devoured {
@@ -63,6 +65,7 @@ button {
 	background: #333;
 	padding: 0.5em 2em 1.7em 2em;
 	margin: 1em 0 1em 1em;
+	opacity: 0.5;
 }
 
 #burgers-devoured h2, #burgers-devoured div {
@@ -106,20 +109,4 @@ h1 {
 	padding: 0.5em 1em 0.5em 1em;
 	font-size: 1.5em;
 }
-  /* footer */
-footer {
-	background: #333;
-	margin: 0;
-	height: 60px;
-	display: flex;
-    align-items: center;
-    font-size: 15px;
-    border-top: 8px solid rgb(37, 192, 212);
-    left: 0;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    color: #ffffff;
-}
-
+  
