@@ -18,6 +18,11 @@
    
 ## Installation 
    Run node.js and perform an npm install to bring in all liabrary and necesarry node modules. The program is run with the command "node server.js"
+
+## Application Heroku Link
+The link below will give you direct access to Eat-Da-Burger web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
+
+* [Eat-Da-Burger](https://abdurezak.herokuapp.com)
   
 ##  Demo
     ![Team Work Demo](Preview/Testdemo.gif)
