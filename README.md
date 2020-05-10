@@ -25,7 +25,8 @@ The link below will give you direct access to Eat-Da-Burger web application usin
 * [Eat-Da-Burger](https://abdurezak.herokuapp.com)
   
 ##  Demo
-    ![Team Work Demo](Preview/Testdemo.gif)
+ ![Demo](Demo/demoburger.gif)
+
 
 ## License
  © 2020 Abdurezak M Abdelkader, University of Richmond (Bootcamp Spot)
