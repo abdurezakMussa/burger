@@ -56,8 +56,9 @@ button {
 	padding: 0.5em 2em 1.7em 2em;
 	background: rgb(204, 181, 155);
 	margin: 1em 1em 1em 0;
-/* color: blue; */
-	opacity: 0.5;
+    color: rgb(38, 20, 44);
+	opacity: 0.8;
+	font-size: larger;
 }
 
 #burgers-devoured {
@@ -65,7 +66,7 @@ button {
 	background: #333;
 	padding: 0.5em 2em 1.7em 2em;
 	margin: 1em 0 1em 1em;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 #burgers-devoured h2, #burgers-devoured div {
@@ -98,15 +99,15 @@ h1 {
 }
 
 #submit-btn {
-	padding: 0.57em 1em 0.57em 1em;
+	padding: 0.45em 1em 0.45em 1em;
 	font-size: 1.5em;
 	background: rgb(60, 199, 192);
 	border: none;
-	margin-left: -5px;
+	margin-left: 0px;
 }
 
-#burger-name {
-	padding: 0.5em 1em 0.5em 1em;
+#burger-names {
+	padding: 1.45em 3em 1.45em 3em;
 	font-size: 1.5em;
 }
   
